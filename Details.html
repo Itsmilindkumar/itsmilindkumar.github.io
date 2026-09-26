@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Milind Kumar, In Depth</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Public+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F4EA;
+    --paper-raised:#FFFFFE;
+    --ink:#1B1B18;
+    --ink-soft:#5B584F;
+    --ink-faint:#8B8778;
+    --line:rgba(27,27,24,0.14);
+    --line-soft:rgba(27,27,24,0.08);
+    --gold:#A9701F;
+    --font-display:'Libre Caslon Display', Georgia, 'Times New Roman', serif;
+    --font-body:'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono:'Space Mono', 'SFMono-Regular', Consolas, monospace;
+  }
+  body{margin:0;background:var(--paper);}
+  a{color:inherit;text-decoration:none;}
+  h1,h2,h3{font-family:var(--font-display);margin:0;}
+  p{margin:0;}
+  .navlink:hover{color:var(--ink);}
+  .toc-link:hover{color:var(--ink); border-color:var(--ink);}
+  @media (max-width: 900px){
+    .layout-grid{grid-template-columns:1fr !important;}
+    .toc-col{position:static !important; order:-1;}
+    .nav-links{display:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<div style="width:100%; min-height:100vh; background:var(--paper); color:var(--ink); font-family:var(--font-body); box-sizing:border-box;">
+
+  <!-- HEADER -->
+  <header style="position:sticky; top:0; z-index:20; background:rgba(247,244,234,0.92); backdrop-filter:blur(6px); border-bottom:1px solid var(--line-soft);">
+    <div style="max-width:1160px; margin:0 auto; padding:18px clamp(20px,5vw,32px); display:flex; align-items:center; justify-content:space-between; gap:24px;">
+      <a href="index.html" style="font-family:var(--font-mono); font-size:14px; font-weight:700; letter-spacing:0.04em;">MILIND KUMAR</a>
+      <nav class="nav-links" style="display:flex; align-items:center; gap:32px; font-size:14px; color:var(--ink-soft);">
+        <a class="navlink" href="index.html">Portfolio</a>
+        <a href="mailto:itsmilindkumar@gmail.com" style="border:1px solid var(--ink); padding:9px 18px; border-radius:999px; font-size:13px; font-weight:600; color:var(--ink);">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- INTRO -->
+    <section style="padding:clamp(56px,9vw,96px) 0 clamp(32px,5vw,48px);">
+      <div style="max-width:1160px; margin:0 auto; padding:0 clamp(20px,5vw,32px);">
+        <div style="font-family:var(--font-mono); font-size:12.5px; letter-spacing:0.12em; color:var(--gold); text-transform:uppercase; margin-bottom:18px;">In depth</div>
+        <h1 style="font-size:clamp(34px,5vw,52px); line-height:1.08; letter-spacing:-0.01em; margin-bottom:18px; max-width:20ch;">The full story behind the work.</h1>
+        <p style="font-size:16px; color:var(--ink-soft); max-width:60ch; line-height:1.7;">The portfolio page keeps things tight. This page doesn't, it's where the context, the process and the decisions behind each project actually live. Still being filled in, more goes in here as I write it up.</p>
+      </div>
+    </section>
+
+    <!-- LAYOUT: TOC + CONTENT -->
+    <section style="padding:0 0 clamp(72px,10vw,120px);">
+      <div style="max-width:1160px; margin:0 auto; padding:0 clamp(20px,5vw,32px);">
+        <div class="layout-grid" style="display:grid; grid-template-columns:220px 1fr; gap:56px; align-items:start;">
+
+          <!-- TOC -->
+          <nav class="toc-col" style="position:sticky; top:88px; display:flex; flex-direction:column; gap:2px; font-size:13.5px;">
+            <div style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.08em; color:var(--ink-faint); text-transform:uppercase; margin-bottom:10px;">On this page</div>
+            <a class="toc-link" href="#inbound-pipeline" style="border-left:2px solid var(--line); padding:6px 0 6px 12px; color:var(--ink-soft);">Live Inbound Pipeline</a>
+            <a class="toc-link" href="#ai-lead-funnel" style="border-left:2px solid var(--line); padding:6px 0 6px 12px; color:var(--ink-soft);">AI-Automated Lead Funnel</a>
+            <a class="toc-link" href="#tapeservice" style="border-left:2px solid var(--line); padding:6px 0 6px 12px; color:var(--ink-soft);">Market Expansion, tapeservice</a>
+            <a class="toc-link" href="#leave-mvp" style="border-left:2px solid var(--line); padding:6px 0 6px 12px; color:var(--ink-soft);">Leave-Management MVP</a>
+            <a class="toc-link" href="#demand-validation" style="border-left:2px solid var(--line); padding:6px 0 6px 12px; color:var(--ink-soft);">Product Demand Validation</a>
+            <a class="toc-link" href="#runner-app" style="border-left:2px solid var(--line); padding:6px 0 6px 12px; color:var(--ink-soft);">Runner Safety App Concept</a>
+            <a class="toc-link" href="#kick90mins" style="border-left:2px solid var(--line); padding:6px 0 6px 12px; color:var(--ink-soft);">Kick90Mins</a>
+            <a class="toc-link" href="#naturustic" style="border-left:2px solid var(--line); padding:6px 0 6px 12px; color:var(--ink-soft);">Naturustic</a>
+          </nav>
+
+          <!-- CONTENT -->
+          <div style="display:flex; flex-direction:column; gap:64px; min-width:0;">
+
+            <article id="inbound-pipeline">
+              <div style="font-family:var(--font-mono); font-size:12px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px;">Marketing Automation &amp; CRM Build</div>
+              <h2 style="font-size:clamp(24px,3vw,30px); margin-bottom:16px;">Live Inbound Pipeline</h2>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75; margin-bottom:14px;">Most of my outreach was going through the same manual bottleneck: someone shows interest, I have to notice, then I have to sort who's actually worth following up with. This project was about removing that bottleneck entirely.</p>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75; margin-bottom:14px;">Built end to end in HubSpot: a landing page with a single clear CTA, leading into a lead-capture form. The moment someone submits, two things happen automatically, they get an email with my resume, and the CRM classifies them into MQL, SQL or Hot based on how they engaged. No manual triage, no lead sitting unsorted in an inbox.</p>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75;">It's live right now: <a href="https://246844329.hs-sites-na2.com/home" target="_blank" rel="noopener" style="border-bottom:1px solid var(--ink);">246844329.hs-sites-na2.com/home</a>.</p>
+            </article>
+
+            <article id="ai-lead-funnel">
+              <div style="font-family:var(--font-mono); font-size:12px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px;">Growth Automation</div>
+              <h2 style="font-size:clamp(24px,3vw,30px); margin-bottom:16px;">AI-Automated Lead Funnel</h2>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75; margin-bottom:14px;">I didn't want to build a full automated outreach system on a guess. So the sequence mattered: prove the idea first, cheaply, before committing to the build.</p>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75; margin-bottom:14px;">Step one was a simple landing page tested with targeted Meta Ads and Google Ads campaigns, just to see whether the concept converted at all before spending time on infrastructure. Once it did, 3.42% CTR and €0.50 per lead, I built the actual system: a Framer landing page feeding into Make.com, which handles the workflow logic, with Gemini generating the personalised copy for each outreach email.</p>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75;">The result is a lightweight, no-code automation stack that finds and reaches people without me writing each message by hand.</p>
+            </article>
+
+            <article id="tapeservice">
+              <div style="font-family:var(--font-mono); font-size:12px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px;">Market Research &amp; Growth Strategist, tapeservice</div>
+              <h2 style="font-size:clamp(24px,3vw,30px); margin-bottom:16px;">Market expansion for a B2B manufacturer</h2>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75; margin-bottom:14px;">The brief was broad on purpose: which of 5 European markets, across 3 high-volume sectors, was actually worth expanding into. That meant the research had to be wide before it could get narrow.</p>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75; margin-bottom:14px;">I sourced a target company list and automated personalised survey outreach through Power Automate, which generated 30+ responses, then supplemented that with direct stakeholder interviews to get at what the numbers alone couldn't: actual buying behaviour and demand-side reasoning. From there, I layered in segmentation and market-dynamics analysis to see where the real opportunities were.</p>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75;">The output was a market-entry framework and KPI model that ranked every market-sector combination by strategic fit, size and competitive landscape, visualised in Power BI dashboards so senior stakeholders could see the reasoning, not just the recommendation.</p>
+            </article>
+
+            <article id="leave-mvp">
+              <div style="font-family:var(--font-mono); font-size:12px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px;">Cognizant Technology Solutions</div>
+              <h2 style="font-size:clamp(24px,3vw,30px); margin-bottom:16px;">An end-to-end leave-management MVP</h2>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75; margin-bottom:14px;">Leave requests were going through a manual chain: employee asks, manager approves, someone updates the calendar and dashboard by hand. Every step was a place for something to get lost or delayed.</p>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75;">I automated the full flow so a request routes for approval and updates the calendar and dashboard on its own, removing the manual coordination that used to sit between each step.</p>
+            </article>
+
+            <article id="demand-validation">
+              <div style="font-family:var(--font-mono); font-size:12px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px;">Market Research &amp; Paid Media</div>
+              <h2 style="font-size:clamp(24px,3vw,30px); margin-bottom:16px;">Product Demand Validation</h2>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75; margin-bottom:14px;">Before committing further resources to a product idea, I wanted real signal, not opinion. So I built a custom landing page and ran interest-targeted Meta ad campaigns against it, then used the campaign data itself to keep tightening the funnel.</p>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75;">That iteration is what pushed the result to 3.92% CTR, 4× the industry benchmark, while cutting cost-per-result by 57%.</p>
+            </article>
+
+            <article id="runner-app">
+              <div style="font-family:var(--font-mono); font-size:12px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px;">New Product Development &amp; Marketing</div>
+              <h2 style="font-size:clamp(24px,3vw,30px); margin-bottom:16px;">Runner Safety App Concept</h2>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75; margin-bottom:14px;">The starting point was a real problem: runners, especially solo or off-hours, don't have a good way to signal distress or avoid unsafe density spikes in real time. I designed the concept in Figma around two core features, crowd-density mapping and a built-in SOS.</p>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75;">Rather than build the full product on a hunch, I validated the demand first: user surveys, TAM/SAM/SOM sizing, and a competitor scan to see what was already out there and where the gap actually was.</p>
+            </article>
+
+            <article id="kick90mins">
+              <div style="font-family:var(--font-mono); font-size:12px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px;">Freelance, since 2023</div>
+              <h2 style="font-size:clamp(24px,3vw,30px); margin-bottom:16px;">Kick90Mins</h2>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75; margin-bottom:14px;">A niche football content platform where I own content strategy and SEO end to end. The approach is simple in principle and constant in practice: use Google Analytics to see what content actually earns attention, then keep iterating toward more of that.</p>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75;">That loop is what's behind the 30% growth in organic engagement.</p>
+            </article>
+
+            <article id="naturustic">
+              <div style="font-family:var(--font-mono); font-size:12px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px;">In progress</div>
+              <h2 style="font-size:clamp(24px,3vw,30px); margin-bottom:16px;">Naturustic</h2>
+              <p style="font-size:15.5px; color:var(--ink-soft); line-height:1.75;">Currently building this one: a blog focused on flagging the harmful chemicals and toxins hiding in everyday products, and pointing readers toward safer, natural alternatives instead. More detail goes here as the site takes shape.</p>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer style="border-top:1px solid var(--line-soft);">
+    <div style="max-width:1160px; margin:0 auto; padding:22px clamp(20px,5vw,32px); display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
+      <span style="font-family:var(--font-mono); font-size:12px; color:var(--ink-faint);">© 2026 Milind Kumar</span>
+      <a href="index.html" style="font-family:var(--font-mono); font-size:12px; color:var(--ink-faint); border-bottom:1px solid var(--line);">Back to portfolio</a>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
